@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4eba28ff-5d1c-411d-b92e-204b643c4984" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CatsVsDogs/generating_more_images_for_traning.py" afterPath="$PROJECT_DIR$/CatsVsDogs/generating_more_images_for_traning.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CatsVsDogs/test_cats_vs_dogs.py" afterPath="$PROJECT_DIR$/CatsVsDogs/test_cats_vs_dogs.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,31 +20,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="generating_more_images_for_traning.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/CatsVsDogs/generating_more_images_for_traning.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="44">
-                  <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="9" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="extract_data_from_tar_file.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/CatsVsDogs/extract_data_from_tar_file.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="308">
-                  <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="train_cats_vs_dogs.py" pinned="false" current-in-tab="false">
+          <file leaf-file-name="train_cats_vs_dogs.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/CatsVsDogs/train_cats_vs_dogs.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="22">
-                  <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+                  <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
                   <folding>
                     <element signature="e#17#29#0" expanded="true" />
                   </folding>
@@ -59,7 +40,7 @@
             <entry file="file://$PROJECT_DIR$/CatsVsDogs/test_cats_vs_dogs.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="286">
-                  <caret line="13" column="14" lean-forward="false" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+                  <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
                   <folding>
                     <element signature="e#17#52#0" expanded="true" />
                   </folding>
@@ -81,8 +62,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>matplotlib</find>
-      <find>plt</find>
       <find>)</find>
+      <find>plt</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -94,9 +75,9 @@
         <option value="$PROJECT_DIR$/CatsVsDogs/generating more images for traning.py" />
         <option value="$PROJECT_DIR$/CatsVsDogs/cat vs dog kears.py" />
         <option value="$PROJECT_DIR$/CatsVsDogs/train_cats_vs_dogs.py" />
-        <option value="$PROJECT_DIR$/CatsVsDogs/test_cats_vs_dogs.py" />
         <option value="$PROJECT_DIR$/CatsVsDogs/extract_data_from_tar_file.py" />
         <option value="$PROJECT_DIR$/CatsVsDogs/generating_more_images_for_traning.py" />
+        <option value="$PROJECT_DIR$/CatsVsDogs/test_cats_vs_dogs.py" />
       </list>
     </option>
   </component>
@@ -312,7 +293,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2391" y="-117" width="1618" height="1248" extended-state="6" />
+    <frame x="2391" y="-117" width="1618" height="1248" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2221515" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -342,13 +323,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CatsVsDogs/test_cats_vs_dogs.py">
+    <entry file="file://$PROJECT_DIR$/CatsVsDogs/generating_more_images_for_traning.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="14" lean-forward="false" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-          <folding>
-            <element signature="e#17#52#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="44">
+          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -363,18 +342,20 @@
     <entry file="file://$PROJECT_DIR$/CatsVsDogs/train_cats_vs_dogs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding>
             <element signature="e#17#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CatsVsDogs/generating_more_images_for_traning.py">
+    <entry file="file://$PROJECT_DIR$/CatsVsDogs/test_cats_vs_dogs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="9" />
-          <folding />
+        <state relative-caret-position="286">
+          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+          <folding>
+            <element signature="e#17#52#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

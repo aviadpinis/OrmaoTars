@@ -3,8 +3,8 @@
 import os
 from keras.preprocessing.image import ImageDataGenerator, array_to_img, img_to_array, load_img
 
-path_source = 'data/source/'
-path_generating = 'data/generate/'
+path_source = './data/source/'
+path_generating = './data/generate/'
 
 datagen = ImageDataGenerator(
         rotation_range=40,
@@ -15,6 +15,13 @@ datagen = ImageDataGenerator(
         horizontal_flip=True,
         fill_mode='nearest')
 
+def createFolder(directory):
+    try:
+        if not os.path.exists(directory):
+            os.makedirs(directory)
+    except OSError:
+        print ('Error: Creating directory. ' +  directory)
+
 def gen(img, prefix, theFormat, path_folder):
     i = 0
     for batch in datagen.flow(img, batch_size=1,
@@ -23,6 +30,14 @@ def gen(img, prefix, theFormat, path_folder):
         if i > 20:
             break  # otherwise the generator would loop indefinitely
 
+createFolder('./data/')
+createFolder('./data/generate')
+createFolder('./data/generate/traning')
+createFolder('./data/generate/traning/cat')
+createFolder('./data/generate/traning/dog')
+createFolder('./data/generate/validation')
+createFolder('./data/generate/validation/cat')
+createFolder('./data/generate/validation/dog')
 
 dataTypeFolders = os.listdir(path_source)
 for dataType in dataTypeFolders:
